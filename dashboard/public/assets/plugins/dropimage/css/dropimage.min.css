@@ -1,0 +1,58 @@
+.dropimage {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: .375rem;
+}
+
+.dropimage .di-thumbnail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: .375rem;
+}
+.dropimage .di-thumbnail img {
+  display: none;
+  width: 100%;
+  height: 100%;
+  border-radius: .375rem;
+  object-fit: cover;
+}
+.dropimage .di-select {
+  z-index: 999;
+  order: -1;
+  text-align: center;
+  color: #95aac9;
+  border: 1px dashed #e3ebf6;
+  border-radius: .375rem;
+  transition: all .2s ease-in-out;
+}
+.dropimage .di-select:hover, .dropimage.dragging .di-select {
+  color: #12263f;
+  border-color: #95aac9;
+}
+.dropimage.active .di-select {
+  opacity: 0;
+  color: #ffffff;
+  background-color: rgba(18,38,63,.9);
+}
+.dropimage.active .di-select:hover {
+  opacity: 1;
+}
+.dropimage.active .di-thumbnail img {
+  display: block;
+}
+.dropimage .di-select label {
+  width: 100%;
+  padding: 5rem 1rem;
+  cursor: pointer;
+  margin: 0;
+  font-size: 1rem;
+}
+.dropimage .di-select input {
+  display: none;
+}

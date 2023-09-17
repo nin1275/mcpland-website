@@ -1,0 +1,204 @@
+{
+    "id": "flat",
+    "name": "Flat",
+    "thumbnail": "https://www.leaderos.net/apps/main/public/assets/img/themes/flat.png",
+    "settings": {
+        "announcementBar": {
+            "value": "0",
+            "settings": {
+                "title": "Announcement Bar",
+                "type": "checkbox"
+            }
+        },
+        "slider": {
+            "value": "0",
+            "settings": {
+                "title": "Slider",
+                "type": "checkbox"
+            }
+        },
+        "sliderType": {
+            "value": "wide",
+            "settings": {
+                "title": "Slider Style",
+                "type": "select",
+                "values": [
+                    {
+                        "text": "Small",
+                        "value": "small"
+                    },
+                    {
+                        "text": "Wide",
+                        "value": "wide"
+                    }
+                ]
+            }
+        },
+        "serverOnlineBar": {
+            "value": "0",
+            "settings": {
+                "title": "Server Online Bar",
+                "type": "checkbox"
+            }
+        },
+        "sidebar": {
+            "value": "0",
+            "settings": {
+                "title": "Sidebar",
+                "type": "checkbox"
+            }
+        },
+        "featuredProduct": {
+            "value": "0",
+            "settings": {
+                "title": "Featured Product ID",
+                "type": "input"
+            }
+        },
+        "featuredProductWidget": {
+            "value": "0",
+            "settings": {
+                "title": "Featured Product Widget",
+                "type": "checkbox"
+            }
+        },
+        "storeHistoryWidget": {
+            "value": "0",
+            "settings": {
+                "title": "Store History Widget",
+                "type": "checkbox"
+            }
+        },
+        "creditHistoryWidget": {
+            "value": "0",
+            "settings": {
+                "title": "Credit History Widget",
+                "type": "checkbox"
+            }
+        },
+        "topCreditHistoryWidget": {
+            "value": "0",
+            "settings": {
+                "title": "Top Credit History Widget",
+                "type": "checkbox"
+            }
+        },
+        "discordWidget": {
+            "value": "0",
+            "settings": {
+                "title": "Discord Widget",
+                "type": "checkbox"
+            }
+        },
+        "discordTheme": {
+            "value": "light",
+            "settings": {
+                "title": "Discord Theme",
+                "type": "select",
+                "values": [
+                    {
+                        "text": "Light",
+                        "value": "light"
+                    },
+                    {
+                        "text": "Dark",
+                        "value": "dark"
+                    }
+                ]
+            }
+        },
+        "discordServerID": {
+            "value": "0",
+            "settings": {
+                "title": "Discord Server ID",
+                "type": "input"
+            }
+        },
+        "newsCardType": {
+            "value": "small",
+            "settings": {
+                "title": "News Card Style",
+                "type": "select",
+                "values": [
+                    {
+                        "text": "Small",
+                        "value": "small"
+                    },
+                    {
+                        "text": "Wide",
+                        "value": "wide"
+                    }
+                ]
+            }
+        },
+        "headerTheme": {
+            "value": "hivemc",
+            "settings": {
+                "title": "Header Theme",
+                "type": "select",
+                "values": [
+                    {
+                        "text": "LeaderOS",
+                        "value": "leaderos"
+                    },
+                    {
+                        "text": "HiveMC",
+                        "value": "hivemc"
+                    },
+                    {
+                        "text": "Hypixel",
+                        "value": "hypixel"
+                    }
+                ]
+            }
+        },
+        "headerType": {
+            "value": "small",
+            "settings": {
+                "title": "Header Style",
+                "type": "select",
+                "values": [
+                    {
+                        "text": "Small",
+                        "value": "small"
+                    },
+                    {
+                        "text": "Wide",
+                        "value": "wide"
+                    }
+                ]
+            }
+        },
+        "headerLogo": {
+            "value": "\/apps\/main\/public\/assets\/img\/extras\/header-logo.png",
+            "settings": {
+                "title": "Header Logo",
+                "type": "image"
+            }
+        },
+        "headerBackground": {
+            "value": "\/apps\/main\/public\/assets\/img\/extras\/header-bg.png",
+            "settings": {
+                "title": "Header Logo",
+                "type": "image"
+            }
+        },
+        "recaptchaTheme": {
+            "value": "light",
+            "settings": {
+                "title": "reCaptcha Theme",
+                "type": "select",
+                "values": [
+                    {
+                        "text": "Light",
+                        "value": "light"
+                    },
+                    {
+                        "text": "Dark",
+                        "value": "dark"
+                    }
+                ]
+            }
+        }
+    }
+}
